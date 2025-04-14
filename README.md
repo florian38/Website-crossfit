@@ -1,44 +1,34 @@
 # Projet D231 - Création d'un site web
 
 Ayant pour projet de réaliser un site Web statique sur un loisir qui me passionne. J’ai choisi pour sujet le Crossfit, activité sportive que je pratique régulièrement. 
-Il se compose de pages en HTML, de styles en CSS et d'un script JavaScript.
+Il se compose pour le moment de plusieurs page HTML statique.
 
 ## Structure du projet
 
-Le projet est organisé en 4 dossiers différents.
+Le projet est organisé en 4 fichier html dans un dossier html:
 
-### HTML
-Les fichiers HTML, qui constituent le contenu, comprennent :
 - index.html : Introduction du site et la discipline.
 - history.html : Présente l'histoire du CrossFit.
 - training.html : Présente le déroulement d'une séance typique du CrossFit et les différents aspect de la discipline.
 - benefit.html : Présente les bienfaits du CrossFit
 
-### CSS
-Les fichiers CSS, pour gérer le style, comprennent :
-- screen.css : Pour le style sur écran.
-- print.css : Pour le style sur impression.
+Le projet comprend également :
+ - Un dossier /css pour le style.
+ - Un dossier /js pour le JS.
+ - Un dossier /img pour les images.
 
-### JS
-Un fichier JS :
-- main.js : Charger de gérer les interactions sur le site.
+##Technologies et bonnes pratiques
 
-### Autres dossiers
- - img : Regroupe toutes les images utilisées sur le site.
-
-### Technologie
+### Technologies
 
 Pour le moment : 
 - HTML5
-- CSS3 
-- JavaScript
+- CSS3 (à venir)
+- JavaScript (à venir)
 
 ### Bonne pratique
 
-- Utilisation précise des balises sémantique pour structurer mon site de manière optimal.
-- Séparation claire des fichiers par type afin de garantir une bonne maintenance.
-- Intégration d’un fichier dédié pour optimiser le rendu lors de l’impression.
-
+Utilisation précise des balises sémantique pour structurer mon site de manière optimal.
 
 ## Déploiement
 
