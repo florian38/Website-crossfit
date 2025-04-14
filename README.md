@@ -4,19 +4,29 @@ Ayant pour projet de réaliser un site Web statique sur un loisir qui me passion
 Il se compose pour le moment de plusieurs page HTML statique.
 
 ## Structure du projet
+ 
+ Le projet est organisé en 4 dossiers différents.
+ Le projet est organisé en 4 fichier html dans un dossier html:
+ 
+ ### HTML
+ Les fichiers HTML, qui constituent le contenu, comprennent :
+ - index.html : Introduction du site et la discipline.
+ - history.html : Présente l'histoire du CrossFit.
+ - training.html : Présente le déroulement d'une séance typique du CrossFit et les différents aspect de la discipline.
+ - benefit.html : Présente les bienfaits du CrossFit
+ 
+ ### CSS
+ Les fichiers CSS, pour gérer le style, comprennent :
+ - screen.css : Pour le style sur écran.
+ - print.css : Pour le style sur impression.
+ 
+ ### JS
+ Un fichier JS :
+ - main.js : Charger de gérer les interactions sur le site.
 
-Le projet est organisé en 4 fichier html dans un dossier html:
-
-- index.html : Introduction du site et la discipline.
-- history.html : Présente l'histoire du CrossFit.
-- training.html : Présente le déroulement d'une séance typique du CrossFit et les différents aspect de la discipline.
-- benefit.html : Présente les bienfaits du CrossFit
-
-Le projet comprend également :
- - Un dossier /css pour le style.
- - Un dossier /js pour le JS.
- - Un dossier /img pour les images.
-
+### Autres dossiers
+  - img : Regroupe toutes les images utilisées sur le site.
+ 
 ## Technologies et bonnes pratiques
 
 ### Technologies
@@ -27,8 +37,9 @@ Pour le moment :
 - JavaScript (à venir)
 
 ### Bonne pratique
-
-Utilisation précise des balises sémantique pour structurer mon site de manière optimal.
+- Utilisation précise des balises sémantique pour structurer mon site de manière optimal.
+- Séparation claire des fichiers par type afin de garantir une bonne maintenance.
+- Intégration d’un fichier dédié pour optimiser le rendu lors de l’impression.
 
 ## Déploiement
 
