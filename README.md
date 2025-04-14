@@ -32,8 +32,8 @@ Il se compose de pages en HTML, de styles en CSS et d'un script JavaScript.
 
 Pour le moment : 
 - HTML5
-- CSS3 (à venir)
-- JavaScript (à venir)
+- CSS3 
+- JavaScript 
 
 ### Bonne pratique
 - Utilisation précise des balises sémantique pour structurer mon site de manière optimal.
