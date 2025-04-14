@@ -1,12 +1,11 @@
 # Projet D231 - Création d'un site web
 
 Ayant pour projet de réaliser un site Web statique sur un loisir qui me passionne. J’ai choisi pour sujet le Crossfit, activité sportive que je pratique régulièrement. 
-Il se compose pour le moment de plusieurs page HTML statique.
+Il se compose de pages en HTML, de styles en CSS et d'un script JavaScript.
 
 ## Structure du projet
  
  Le projet est organisé en 4 dossiers différents.
- Le projet est organisé en 4 fichier html dans un dossier html:
  
  ### HTML
  Les fichiers HTML, qui constituent le contenu, comprennent :
