@@ -17,7 +17,7 @@ Le projet comprend également :
  - Un dossier /js pour le JS.
  - Un dossier /img pour les images.
 
-##Technologies et bonnes pratiques
+## Technologies et bonnes pratiques
 
 ### Technologies
 
