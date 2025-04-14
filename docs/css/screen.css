@@ -111,7 +111,7 @@ h2 {
 /* ======================================== */
 .hero-section {
     height: 100vh;
-    background-image: url('img/hero-home.jpeg');
+    background-image: url('../img/hero-home.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,15 +123,15 @@ h2 {
 }
 
 .hero-history {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hero-history.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero-history.jpeg');
 }
 
 .hero-training {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hero-training.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero-training.jpg');
 }
 
 .hero-benefit {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hero-benefit.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero-benefit.jpg');
 }
 
 .hero-content {
