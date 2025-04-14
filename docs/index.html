@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Repousse tes limites et réveille le champion en toi avec le CrossFit, une approche innovante et pluridisciplinaire du fitness.">
     <meta name="keywords" content="CrossFit, fitness, entraînement, sport, dépassement de soi">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Indie+Flower&display=swap">
+    <link rel="stylesheet" media="screen" href="css/screen.css">
+    <link rel="stylesheet" media="print" href="css/print.css">
+    <script src="js/main.js" defer></script>
     <title>Découvre le CrossFit</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="history.html">Origine</a></li>
@@ -20,21 +25,24 @@
     </header>
 
     <main>
-        <section>
-            <header>
-                <h1>CrossFit</h1>
-            </header>
-            <p>Repousse tes limites et réveille le champion en toi !</p>
-            <a href="#origin-crossfit" role="button">Découvrir</a>
+        <section class="hero-section">
+            <!--Div nécessaire pour le style-->
+            <div class="hero-content">
+                <header>
+                    <h1>CrossFit</h1>
+                </header>
+                <p>Repousse tes limites et réveille le champion en toi !</p>
+                <a href="#origin-crossfit" role="button">Découvrir</a>
+            </div>
         </section>
 
-        <section id="origin-crossfit">
-            <!--Div nécessaire par la suite pour le style-->
-            <div>
+        <section id="origin-crossfit" class="shared-section home-section">
+            <!--Div nécessaire pour le style-->
+            <div class="shared-section-content home-section-content">
                 <header>
                     <h2>D'où vient le CrossFit ?</h2>
                 </header>
-                <div>
+                <div class="shared-section-text">
                     <p>
                         Depuis ces dernières années, et particulièrement en France, le mot CrossFit est de plus en plus présent dans le monde du fitness mais pas seulement.
                         Véritable raz-de-marée, cette méthodologie d'entraînement physique débarque avec une approche innovante et pluridisciplinaire.
@@ -47,41 +55,40 @@
                 <a href="history.html" role="button">Découvrir</a>
             </div>
 
-            <figure>
-                <img src="img/home1.jpg" alt="Salle de CrossFit">
+            <figure class="shared-gallery-three home-section-gallery ">
+                <img src="img/home1.jpg" alt="Salle de CrossFit" class="print-only">
                 <img src="img/home2.jpg" alt="Salle de CrossFit 2">
                 <img src="img/home3.jpg" alt="Banc avec haltère">
             </figure>
 
-            <aside>
-                <div>
-                    <h3>5M</h3>
-                    <p>de pratiquants</p>
+            <aside class="shared-section-stat home-section-stats">
+                <div class="stat-item">
+                    <h3 class="stat-value">5M</h3>
+                    <p class="stat-label">de pratiquants</p>
                 </div>
-                <div>
-                    <h3>15 000</h3>
-                    <p>salles affiliées</p>
+                <div class="stat-item">
+                    <h3 class="stat-value">15 000</h3>
+                    <p class="stat-label">salles affiliées</p>
                 </div>
             </aside>
-
         </section>
 
-        <section>
+        <section class="section-info">
             <h2>Le savais-tu ?</h2>
             <p>
                 Chaque année, la marque CrossFit organise une compétition appelée les Open, ouverte à tous et qui te permet de te mesurer aux meilleurs athlètes du monde. 
                 Cette compétition a pour but de déterminer 'The Fittest on Earth'.
             </p>
-            <a href="https://games.crossfit.com/open/overview">M'informer</a>
+            <a href="https://games.crossfit.com/open/overview" role="button">M'informer</a>
         </section>
 
-        <section>
-            <!--Div nécessaire par la suite pour le style-->
-            <div>
+        <section class="shared-section home-section">
+            <!--Div nécessaire pour le style-->
+            <div class="shared-section-content home-section-content">
                 <header>
                     <h2>Et l'entraînement, alors ?</h2>
                 </header>
-                <div>
+                <div class="shared-section-text">
                     <p>
                         Le CrossFit est tout simplement un mélange d'exercices fonctionnels visant à améliorer sa condition physique générale.
                         Il combine force, cardio, agilité et même concentration.
@@ -95,24 +102,24 @@
                 <a href="training.html" role="button">Découvrir</a>
             </div>
 
-            <figure>
-                <img src="img/home4.jpg" alt="Entraînement de CrossFit 1">
+            <figure class="shared-gallery-two home-section-gallery">
+                <img src="img/home4.jpg" alt="Entraînement de CrossFit 1" class="print-only">
                 <img src="img/home5.jpg" alt="Entraînement de CrossFit 2">
             </figure>
 
-            <aside>
-                <div>
-                    <h3>1h</h3>
-                    <p>Durée en moyenne d'une séance</p>
+            <aside class="shared-section-stat home-section-stats">
+                <div class="stat-item">
+                    <h3 class="stat-value">1h</h3>
+                    <p class="stat-label">Durée en moyenne d'une séance</p>
                 </div>
-                <div>
-                    <h3>600</h3>
-                    <p>Nombre de calories brûlées en moyenne</p>
+                <div class="stat-item">
+                    <h3 class="stat-value">600</h3>
+                    <p class="stat-label">Nombre de calories brûlées en moyenne</p>
                 </div>
             </aside>
         </section>
 
-        <section>
+        <section class="section-testimonial">
             <header>
                 <h2>Tu es encore mitigé ?</h2>
             </header>
@@ -120,13 +127,13 @@
                 Pour te motiver, découvre les témoignages d'adhérents de différentes salles de CrossFit qui partagent leur expérience personnelle !
             </p>
 
-            <!--Div nécessaire par la suite pour le style-->
-            <div>
-                <button type="button" aria-label="Témoignage précédent">
-                    <img src="img/arrow-left.svg" alt="Flèche gauche">
+            <!--Div nécessaire pour le style-->
+            <div class="testimonial-content">
+                <button type="button" aria-label="Témoignage précédent" class="testimonial-nav-btn">
+                    <img src="../img/arrow-left.svg" alt="Flèche gauche">
                 </button>
 
-                <article>
+                <article class="testimonial-article">
                     <h3>Témoignage</h3>
                     <blockquote>
                         <p>
@@ -139,39 +146,39 @@
                     </blockquote>
                 </article>
 
-                <button type="button" aria-label="Témoignage suivant">
+                <button type="button" aria-label="Témoignage suivant" class="testimonial-nav-btn">
                     <img src="img/arrow-right.svg" alt="Flèche droite">
                 </button>
             </div>
 
             <nav aria-label="Navigation des témoignages">
-                <button type="button" aria-label="Témoignage 1"></button>
+                <button type="button" aria-label="Témoignage 1" class="testimonial-nav-indicator"></button>
             </nav>
         </section>
 
-        <section>
-            <!--Div nécessaire par la suite pour le style-->
-            <div>
+        <section class="section-faq">
+            <!--Div nécessaire pour le style-->
+            <div class="faq-info">
                 <header>
                     <h2>N'hésite pas, si tu as des questions !</h2>
                 </header>
                 <p>
                     Une multitude de questions te trottent dans la tête ? Jette un œil à notre FAQ pour voir si tu y trouves les réponses que tu cherches !
                 </p>
-                <aside>
-                    <div>
-                        <h3>90%</h3>
-                        <p>Taux de satisfaction</p>
+                <aside class="home-faq-stats">
+                    <div class="stat-item">
+                        <h3 class="stat-value big-stat-value">90%</h3>
+                        <p class="stat-label">Taux de satisfaction</p>
                     </div>
-                    <div>
-                        <h3>8 semaines</h3>
-                        <p>Pour voir les premiers résultats</p>
+                    <div class="stat-item">
+                        <h3 class="stat-value big-stat-value">8 semaines</h3>
+                        <p class="stat-label">Pour voir les premiers résultats</p>
                     </div>
                 </aside>
             </div>
 
-            <!--Div nécessaire par la suite pour le style-->
-            <div>
+            <!--Div nécessaire pour le style-->
+            <div class="faq-question">
                 <details>
                     <summary>
                         Le CrossFit est-il pour les débutants ?
@@ -229,9 +236,9 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <h2>CrossFit</h2>
-        <nav aria-label="Pied de page">
+        <nav aria-label="Pied de page" class="footer-nav">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="history.html">Origine</a></li>
@@ -239,10 +246,15 @@
                 <li><a href="benefit.html">Bienfaits</a></li>
             </ul>
         </nav>
-        <!--Div nécessaire par la suite pour le style-->
-        <div>
+
+        <!--Div nécessaire pour le style-->
+        <div class="footer-info">
             <p>&copy; 2025 Florian Ekoué. Tous droits réservés.</p>
-            <div>
+            <div class="footer-contact">
+                <p>Pour toute question, contactez l'administrateur :</p>
+                <a href="mailto:florian.ekoue@etud.u-picardie.fr">florian.ekoue@etud.u-picardie.fr</a>
+            </div>
+            <div class="footer-link">
                 <a href="https://www.instagram.com/crossfit/" aria-label="Instagram">
                     <img src="img/instagram.svg" alt="Icône instagram">
                 </a>

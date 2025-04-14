@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Découvre les multiples bienfait du Crossfit sur tous les aspects : physique, mental et social.">
     <meta name="keywords" content="CrossFit, bienfait, force, endurance, mental, dépassement, communauté">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Indie+Flower&display=swap">
+    <link rel="stylesheet" media="screen" href="css/screen.css">
+    <link rel="stylesheet" media="print" href="css/print.css">
+    <script src="js/main.js" defer></script>
     <title>Les bienfaits du CrossFit</title>
 </head>
 <body>
 
     <header>
-        <nav>
+        <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="history.html">Origine</a></li>
@@ -21,21 +26,23 @@
     </header>
 
     <main>
-        <section>
-            <header>
-                <h1>Les Bienfaits du CrossFit</h1>
-            </header>
-            <p>Découvre ce que va t’apporter cette méthode d’entraînement à travers le temps avec un peu de rigueur !</p>
-            <a href="#benefit" role="button">C’est parti !</a>
+        <section class="hero-section hero-benefit">
+            <div class="hero-content">
+                <header>
+                    <h1>Les Bienfaits du CrossFit</h1>
+                </header>
+                <p>Découvre ce que va t’apporter cette méthode d’entraînement à travers le temps avec un peu de rigueur !</p>
+                <a href="#benefit" role="button">C’est parti !</a>
+            </div>
         </section>
 
-        <section id="benefit">
-            <!--Div nécessaire par la suite pour le style-->
-            <div>
+        <section id="benefit" class="shared-section">
+            <!--Div nécessaire pour le style-->
+            <div class="shared-section-content">
                 <header>
                     <h2>Mais quels sont les bienfaits ?</h2>
                 </header>
-                <div>
+                <div class="shared-section-text">
                     <p>
                         Si tu as jeté un œil aux autres pages de ce site, tu as sûrement déjà deviné les avantages et les bénéfices de la pratique de
                         cette discipline. Mais si c’est encore un peu flou pour toi et que tu te poses des questions sur les bienfaits…
@@ -50,18 +57,18 @@
                 <a href="#benefit-physical" role="button">En savoir plus</a>
             </div>
 
-            <figure>
-                <img src="img/benefit1.jpg" alt="CrossFiteur avec une corde à sauter">
+            <figure class="shared-section-gallery">
+                <img src="img/benefit1.jpg" alt="CrossFiteur avec une corde à sauter" class="print-only">
             </figure>
         </section>
 
-        <section id="benefit-physical">
-            <!--Div nécessaire par la suite pour le style-->
-            <div>
+        <section id="benefit-physical" class="shared-section shared-section-reverse">
+            <!--Div nécessaire pour le style-->
+            <div class="shared-section-content">
                 <header>
                     <h2>Physique</h2>
                 </header>
-                <div>
+                <div class="shared-section-text">
                     <p>
                         Ton physique s’améliorera au fil des séances. Le mélange d’haltérophilie, de musculation et de gymnastique te permettra
                         de devenir indéniablement plus fort, et tu auras une meilleure appréhension de ton corps. Ton cœur te remerciera également,
@@ -72,30 +79,30 @@
                         et gagner par la même occasion du muscle.
                     </p>
                 </div>
-                <aside>
-                    <div>
-                        <h3>75 %</h3>
-                        <p>Pratiquants ayant une amélioration significative de leur force après 8 semaines</p>
+                <aside class="shared-section-stat">
+                    <div class="stat-item">
+                        <h3 class="stat-value">75 %</h3>
+                        <p class="stat-label">Pratiquants ayant une amélioration significative de leur force après 8 semaines</p>
                     </div>
-                    <div>
-                        <h3>Mobilité</h3>
-                        <p>Le CrossFit accorde également une importance fondamentale à la mobilité</p>
+                    <div class="stat-item">
+                        <h3 class="stat-value">Mobilité</h3>
+                        <p class="stat-label">Le CrossFit accorde également une importance fondamentale à la mobilité</p>
                     </div>
                 </aside>
             </div>
 
-            <figure>
-                <img src="img/benefit2.jpg" alt="CrossFiteur faisant une pompe">
+            <figure class="shared-section-gallery">
+                <img src="img/benefit2.jpg" alt="CrossFiteur faisant une pompe" class="print-only">
             </figure>
         </section>
 
-        <section>
-            <!--Div nécessaire par la suite pour le style-->
-            <div>
+        <section class="shared-section">
+            <!--Div nécessaire pour le style-->
+            <div class="shared-section-content">
                 <header>
                     <h2>Mental</h2>
                 </header>
-                <div>
+                <div class="shared-section-text">
                     <p>
                         Le CrossFit te forge, grâce à l’entraînement intensif, une endurance mentale. En effet, les différents WODs, combinés à la motivation
                         de tes coéquipiers, te poussent implicitement à dépasser tes propres limites, te mettant ainsi à l’épreuve mentalement.
@@ -106,30 +113,30 @@
                         Et la satisfaction, une fois la séance terminée, n’a pas de prix.
                     </p>
                 </div>
-                <aside>
-                    <div>
-                        <h3>80%</h3>
-                        <p>Pratiquants qui constatent une amélioration de leur résilience mentale</p>
+                <aside class="shared-section-stat">
+                    <div class="stat-item">
+                        <h3 class="stat-value">80%</h3>
+                        <p class="stat-label">Pratiquants qui constatent une amélioration de leur résilience mentale</p>
                     </div>
-                    <div>
-                        <h3>75%</h3>
-                        <p>Pratiquants qui remarquent une meilleure gestion du stress</p>
+                    <div class="stat-item">
+                        <h3 class="stat-value">75%</h3>
+                        <p class="stat-label">Pratiquants qui remarquent une meilleure gestion du stress</p>
                     </div>
                 </aside>
             </div>
 
-            <figure>
-                <img src="img/benefit3.jpg" alt="CrossFiteur faisant une traction">
+            <figure class="shared-section-gallery">
+                <img src="img/benefit3.jpg" alt="CrossFiteur faisant une traction" class="print-only">
             </figure>
         </section>
 
-        <section>
-            <!--Div nécessaire par la suite pour le style-->
-            <div>
+        <section class="shared-section shared-section-reverse">
+            <!--Div nécessaire pour le style-->
+            <div class="shared-section-content">
                 <header>
                     <h2>Social</h2>
                 </header>
-                <div>
+                <div class="shared-section-text">
                     <p>
                         L’aspect social est souvent le bienfait du CrossFit le plus négligé. Il se peut que cela ne paraisse pas évident au premier abord,
                         mais apprendre de nouveaux mouvements et soulever de la fonte en communauté peut te permettre de créer des amitiés solides.
@@ -141,27 +148,27 @@
                         De plus, il existe des compétitions en équipe. Une opportunité de partager de nouvelles expériences avec tes amis.
                     </p>
                 </div>
-                <aside>
-                    <div>
-                        <h3>80%</h3>
-                        <p>Les pratiquants soulignent que l’entraide est essentielle à leur motivation</p>
+                <aside class="shared-section-stat">
+                    <div class="stat-item">
+                        <h3 class="stat-value">80%</h3>
+                        <p class="stat-label">Les pratiquants soulignent que l’entraide est essentielle à leur motivation</p>
                     </div>
-                    <div>
-                        <h3>70%</h3>
-                        <p>Membres témoignent avoir noué des amitiés grâce au CrossFit</p>
+                    <div class="stat-item">
+                        <h3 class="stat-value">70%</h3>
+                        <p class="stat-label">Membres témoignent avoir noué des amitiés grâce au CrossFit</p>
                     </div>
                 </aside>
             </div>
 
-            <figure>
-                <img src="img/benefit4.jpg" alt="Compétition de CrossFit">
+            <figure class="shared-section-gallery">
+                <img src="img/benefit4.jpg" alt="Compétition de CrossFit" class="print-only">
             </figure>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <h2>CrossFit</h2>
-        <nav aria-label="Pied de page">
+        <nav aria-label="Pied de page" class="footer-nav">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="history.html">Origine</a></li>
@@ -169,10 +176,15 @@
                 <li><a href="benefit.html">Bienfaits</a></li>
             </ul>
         </nav>
-        <!--Div nécessaire par la suite pour le style-->
-        <div>
+
+        <!--Div nécessaire pour le style-->
+        <div class="footer-info">
             <p>&copy; 2025 Florian Ekoué. Tous droits réservés.</p>
-            <div>
+            <div class="footer-contact">
+                <p>Pour toute question, contactez l'administrateur :</p>
+                <a href="mailto:florian.ekoue@etud.u-picardie.fr">florian.ekoue@etud.u-picardie.fr</a>
+            </div>
+            <div class="footer-link">
                 <a href="https://www.instagram.com/crossfit/" aria-label="Instagram">
                     <img src="img/instagram.svg" alt="Icône instagram">
                 </a>
