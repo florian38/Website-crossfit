@@ -1,0 +1,175 @@
+/* print.css - Version pour impression */
+@media print {
+
+    @page {
+        margin-top: 1.5cm;
+    }
+
+    /* =============================== */
+    /*             Init                */
+    /* =============================== */
+    * {
+        background: transparent !important;
+        box-shadow: none !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    body {
+        background: white;
+        color: #000;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 12pt;
+        margin: 0.5in;
+    }
+
+    /* ===================================== */
+    /*       Hiding non-printable elements   */
+    /* ===================================== */
+    nav,
+    button,
+    a[role="button"],
+    .testimonial-nav-btn,
+    .testimonial-nav-indicator,
+    .footer h2,
+    .footer-nav,
+    .footer-info > p,
+    .footer-link {
+        display: none;
+    }
+
+    /* =============================== */
+    /*           Ajust section        */
+    /* =============================== */
+    main,
+    section {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* =============================== */
+    /*           Title                 */
+    /* =============================== */
+    h1 {
+        display: block;
+        text-align: center;
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    h2 {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    h3 {
+        display: block;
+        text-align: center;
+    }
+
+    /* =============================== */
+    /*             Images              */
+    /* =============================== */
+    .shared-section-gallery,
+    .shared-gallery-two,
+    .shared-gallery-three {
+        display: block;
+    }
+
+    .shared-section-gallery img:not(.print-only),
+    .shared-gallery-two img:not(.print-only),
+    .shared-gallery-three img:not(.print-only) {
+        display: none;
+    }
+
+    .print-only {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: 2.5rem auto;
+    }
+
+    /* =============================== */
+    /*             Text                */
+    /* =============================== */
+    .shared-section-content {
+        width: 100%;
+        display: block;
+        text-align: justify;
+        text-indent: 2rem;
+    }
+
+
+    /* =============================== */
+    /*              Aside              */
+    /* =============================== */
+    aside {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        text-align: center;
+    }
+
+
+    /* =============================== */
+    /*          Section HERO           */
+    /* =============================== */
+    .hero-section {
+        height: auto;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .hero-section p {
+        font-size: 1.25rem;
+        margin: 0.5rem auto;
+        line-height: 1.4;
+        font-style: italic;
+    }
+
+    /* =============================== */
+    /*         Section spécifique      */
+    /* =============================== */
+    .faq-info,
+    .faq-question,
+    .testimonial-article {
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+
+    .section-info p,
+    .section-testimonial p {
+        width: 100%;
+        display: block;
+        text-align: justify;
+        text-indent: 2rem;
+    }
+
+    .testimonial-article footer{
+        text-align: center;
+    }
+
+    .faq-question details {
+        margin: 2rem 0;
+        break-inside: avoid;
+    }
+
+    .faq-question summary {
+        list-style: disc;
+    }
+
+    .footer-contact {
+        display: flex;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
