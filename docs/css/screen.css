@@ -123,15 +123,15 @@ h2 {
 }
 
 .hero-history {
-    background-image: url('../img/hero-history.jpeg'), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-image: url('../img/hero-history.jpeg');
 }
 
 .hero-training {
-    background-image: url('../img/hero-training.jpeg'), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-image: url('../img/hero-training.jpg');
 }
 
 .hero-benefit {
-    background-image: url('../img/hero-benefit.jpeg'), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-image: url('../img/hero-benefit.jpg');
 }
 
 .hero-content {
