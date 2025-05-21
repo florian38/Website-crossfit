@@ -211,7 +211,7 @@ body {
     transform: translateY(-50%);
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../img/sun.png');
+    background-image: url('img/sun.png');
     left: 0.3rem;
     opacity: 1;
     transition: opacity .4s;
@@ -226,7 +226,7 @@ body {
 }
 
 #theme-toggle input:checked + .slider::after {
-    background-image: url('../img/moon.png');
+    background-image: url('img/moon.png');
     left: auto;
     right: 0.3rem;
 }
@@ -267,7 +267,7 @@ h2 {
 /* ======================================== */
 .hero-section {
     min-height: 100vh;
-    background-image: url('../img/hero-home.jpeg');
+    background-image: url('img/hero-home.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -275,18 +275,19 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 5% 0;
 }
 
 .hero-history {
-    background-image: url('../img/hero-history.jpeg');
+    background-image: url('img/hero-history.jpeg');
 }
 
 .hero-training {
-    background-image: url('../img/hero-training.jpg');
+    background-image: url('img/hero-training.jpg');
 }
 
 .hero-benefit {
-    background-image: url('../img/hero-benefit.jpg');
+    background-image: url('img/hero-benefit.jpg');
 }
 
 .hero-content {
