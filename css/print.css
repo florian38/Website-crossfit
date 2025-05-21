@@ -32,7 +32,6 @@
     .testimonial-nav-indicator,
     .footer h2,
     .footer-nav,
-    .footer-info > p,
     .footer-link {
         display: none;
     }
@@ -75,7 +74,7 @@
     }
 
     /* =============================== */
-    /*             Images              */
+    /*             Image               */
     /* =============================== */
     .shared-section-gallery,
     .shared-gallery-two,
@@ -135,7 +134,7 @@
     }
 
     /* =============================== */
-    /*         Section spécifique      */
+    /*         Section specific        */
     /* =============================== */
     .faq-info,
     .faq-question,
@@ -164,6 +163,12 @@
 
     .faq-question summary {
         list-style: disc;
+    }
+
+    .footer-info > p {
+        display: flex;
+        padding: 1rem;
+        justify-content: center;
     }
 
     .footer-contact {
