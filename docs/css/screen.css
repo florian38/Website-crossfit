@@ -784,6 +784,7 @@ h2 {
 
         .shared-gallery-two img {
             max-width: calc((100% - 1%) / 2);
+            aspect-ratio: 3/4;
             height: fit-content;
         }
 

@@ -785,6 +785,7 @@ h2 {
         .shared-gallery-two img {
             max-width: calc((100% - 1%) / 2);
             height: fit-content;
+            aspect-ratio: 3/4;
         }
 
         /* === Three pic === */
